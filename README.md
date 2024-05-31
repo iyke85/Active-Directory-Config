@@ -56,6 +56,22 @@ Verified successful ping responses from Client-1.
 
 - Step 4
 
+- Install Active Directory
+1. Install AD DS:
+
+Logged into DC-1 and installed Active Directory Domain Services (AD DS).
+Promoted DC-1 to a Domain Controller by setting up a new forest named mydomain.com.
+Restarted DC-1 and logged back in as iyke27.com\OLA_ADMIN.
+2. Create User Accounts in AD:
+
+Created an Organizational Unit (OU) named _EMPLOYEES in Active Directory Users and Computers (ADUC).
+Created another OU named _ADMINS.
+Created a new user Jane Doe with the username jane_admin and added her to the Domain Admins security group.
+Logged out and logged back in as iyke27.com\OLA_ADMIN.
+
+![INSTALL AD](https://github.com/iyke85/Active-Directory-Config/assets/159981310/717ae47d-dc24-4121-9a96-d132b035f4c6)
+
+
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
