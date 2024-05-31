@@ -35,8 +35,8 @@ Configuration:
 I used the same Resource Group and VNet created for DC-1.
 Ensured both VMs were in the same VNet (verified using Network Watcher).
 
+![Screenshot 2024-05-26 154341](https://github.com/iyke85/Active-Directory-Config/assets/159981310/8d45e979-cc18-4de0-a417-75134359c6e9)
 
-![Screenshot 2024-05-26 154341](https://github.com/iyke85/Active-Directory-Config/assets/159981310/753367dd-f62b-4c98-a0cc-aa19242e91ed)
 
 
 
