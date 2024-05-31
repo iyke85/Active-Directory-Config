@@ -80,10 +80,13 @@ Logged out and logged back in as iyke27.com\OLA_ADMIN.
 
 ![OLA DOMAIN WELCOM](https://github.com/iyke85/Active-Directory-Config/assets/159981310/87163af2-3956-46ca-9767-16a62748ff53)
 
+![OLA(ADMIN GROUP)](https://github.com/iyke85/Active-Directory-Config/assets/159981310/b5681329-1034-4bef-885a-0b8f459aa394)
+
+
 <h2>
 </h2>
 
-<h2>Deployment and Configuration Steps</h2>
+<h2></h2>
 
 Join Client-1 to the Domain
 
@@ -91,6 +94,9 @@ Join Client-1 to the Domain
 
 Set Client-1’s DNS settings in Azure to point to DC-1's private IP address.
 Restarted Client-1 from the Azure Portal.
+
+![client -1 DNS ](https://github.com/iyke85/Active-Directory-Config/assets/159981310/281da199-271a-4055-9358-38bd5a8e6eac)
+
 
 2. Join Domain:
 
@@ -105,6 +111,11 @@ Setup Remote Desktop for Non-Administrative Users
 Logged into Client-1 as mydomain.com\OLA_ADMIN.
 Opened system properties and configured Remote Desktop settings to allow domain users access.
 Verified the ability to log into Client-1 as a non-administrative user.
+
+![JOINED DOMAIN](https://github.com/iyke85/Active-Directory-Config/assets/159981310/406f7107-8e98-4fb1-bdc5-403fd9a2cf67)
+
+![DOMAIN USERS ADDED](https://github.com/iyke85/Active-Directory-Config/assets/159981310/8a4fd1ac-fa3b-4792-bb2a-9379991e3733)
+
 
 
 
