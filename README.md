@@ -3,7 +3,7 @@
 </p>
 
 <h1>  Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of Active Directory within Azure Virtual Machines.<br />
+This project involves setting up a basic Active Directory (AD) environment in Azure, including creating and configuring virtual machines (VMs), establishing network connectivity, configuring AD services, and managing user accounts. The goal is to demonstrate proficiency in deploying and managing a Windows Server environment with Active Directory in a cloud infrastructure.<br />
 <h2>Environments and Technologies Used</h2>
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
@@ -17,7 +17,17 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
+- 1. Create the Domain Controller VM:
+
+VM Name: DC-1
+OS: Windows Server 2022
+Configuration:
+Created a new Resource Group and Virtual Network (VNet) during VM creation.
+Set the NIC Private IP address of DC-1 to static.
+![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/8f3e313e-a3c0-46cd-ba33-1d355f2d11f6)
+
+![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/501948f7-50b9-4553-8dda-fa6bf5eacd31)
+
 - Step 2
 - Step 3
 - Step 4
