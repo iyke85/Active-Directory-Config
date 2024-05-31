@@ -38,9 +38,22 @@ Ensured both VMs were in the same VNet (verified using Network Watcher).
 ![Screenshot 2024-05-26 154341](https://github.com/iyke85/Active-Directory-Config/assets/159981310/8d45e979-cc18-4de0-a417-75134359c6e9)
 
 
+ Ensure Connectivity Between Client and Domain Controller
+ 
+ Test Connectivity:
 
+Logged into Client-1 via Remote Desktop.
+Performed a continuous ping (ping -t <DC-1_private_IP_address>) to DC-1's private IP address to check connectivity. 
 
-- Step 3
+Enable ICMPv4 on DC-1:
+
+Logged into DC-1 and enabled ICMPv4 through the local Windows Firewall.
+Verified successful ping responses from Client-1.
+
+![Screenshot 2024-05-26 154902](https://github.com/iyke85/Active-Directory-Config/assets/159981310/362c3e37-22b8-4c88-a07e-befcc64e7e70)
+
+![Screenshot 2024-05-26 155645](https://github.com/iyke85/Active-Directory-Config/assets/159981310/f2045f33-f824-4b67-b950-e772155a1e4d)
+
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
