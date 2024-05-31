@@ -54,25 +54,59 @@ Verified successful ping responses from Client-1.
 
 ![Screenshot 2024-05-26 155645](https://github.com/iyke85/Active-Directory-Config/assets/159981310/f2045f33-f824-4b67-b950-e772155a1e4d)
 
-- Step 4
+![DC-1 PING SUCCESSFUL](https://github.com/iyke85/Active-Directory-Config/assets/159981310/5889b1c0-c49f-483d-ab40-40d58813568e)
+
+
 
 - Install Active Directory
 1. Install AD DS:
 
 Logged into DC-1 and installed Active Directory Domain Services (AD DS).
-Promoted DC-1 to a Domain Controller by setting up a new forest named mydomain.com.
+Promoted DC-1 to a Domain Controller by setting up a new forest named iyke27.com.
 Restarted DC-1 and logged back in as iyke27.com\OLA_ADMIN.
 2. Create User Accounts in AD:
 
 Created an Organizational Unit (OU) named _EMPLOYEES in Active Directory Users and Computers (ADUC).
 Created another OU named _ADMINS.
-Created a new user Jane Doe with the username jane_admin and added her to the Domain Admins security group.
+Created a new user Olachi Onwuanaibe with the username OLA_ADMIN and added her to the Domain Admins security group.
 Logged out and logged back in as iyke27.com\OLA_ADMIN.
 
 ![INSTALL AD](https://github.com/iyke85/Active-Directory-Config/assets/159981310/717ae47d-dc24-4121-9a96-d132b035f4c6)
 
+![AD 2](https://github.com/iyke85/Active-Directory-Config/assets/159981310/06a70675-eb35-4c7d-8e49-b4dc1f2343c4)
+
+
+![OLA_ADMIN](https://github.com/iyke85/Active-Directory-Config/assets/159981310/49fbe99b-4d1b-44b8-9cbc-0011f0c21c63)
+
+![OLA DOMAIN WELCOM](https://github.com/iyke85/Active-Directory-Config/assets/159981310/87163af2-3956-46ca-9767-16a62748ff53)
+
+<h2>
+</h2>
 
 <h2>Deployment and Configuration Steps</h2>
+
+Join Client-1 to the Domain
+
+1. Configure DNS Settings:
+
+Set Client-1’s DNS settings in Azure to point to DC-1's private IP address.
+Restarted Client-1 from the Azure Portal.
+
+2. Join Domain:
+
+Logged into Client-1 as the local admin (OLA_ADMIN) and joined it to the domain iyke27.com.
+Verified that Client-1 appeared in ADUC under the Computers container.
+Moved Client-1 to a new OU named _CLIENTS for organizational purposes.
+
+Setup Remote Desktop for Non-Administrative Users
+
+1. Allow Remote Desktop Access:
+
+Logged into Client-1 as mydomain.com\OLA_ADMIN.
+Opened system properties and configured Remote Desktop settings to allow domain users access.
+Verified the ability to log into Client-1 as a non-administrative user.
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
