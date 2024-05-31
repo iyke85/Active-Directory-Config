@@ -24,7 +24,8 @@ OS: Windows Server 2022
 Configuration:
 Created a new Resource Group and Virtual Network (VNet) during VM creation.
 Set the NIC Private IP address of DC-1 to static.
-![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/8f3e313e-a3c0-46cd-ba33-1d355f2d11f6)
+![Screenshot 2024-05-26 154341](https://github.com/iyke85/Active-Directory-Config/assets/159981310/753367dd-f62b-4c98-a0cc-aa19242e91ed)
+
 
 ![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/501948f7-50b9-4553-8dda-fa6bf5eacd31)
 
