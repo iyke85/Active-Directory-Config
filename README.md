@@ -17,19 +17,29 @@ This project involves setting up a basic Active Directory (AD) environment in Az
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- 1. Create the Domain Controller VM:
+ Create the Domain Controller VM:
 
 VM Name: DC-1
 OS: Windows Server 2022
 Configuration:
 Created a new Resource Group and Virtual Network (VNet) during VM creation.
 Set the NIC Private IP address of DC-1 to static.
+![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/501948f7-50b9-4553-8dda-fa6bf5eacd31)
+
+
+ Create the Client VM:
+
+VM Name: Client-1
+OS: Windows 10
+Configuration:
+I used the same Resource Group and VNet created for DC-1.
+Ensured both VMs were in the same VNet (verified using Network Watcher).
+
+
 ![Screenshot 2024-05-26 154341](https://github.com/iyke85/Active-Directory-Config/assets/159981310/753367dd-f62b-4c98-a0cc-aa19242e91ed)
 
 
-![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/501948f7-50b9-4553-8dda-fa6bf5eacd31)
 
-- Step 2
 - Step 3
 - Step 4
 
