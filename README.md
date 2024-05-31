@@ -117,28 +117,53 @@ Verified the ability to log into Client-1 as a non-administrative user.
 ![DOMAIN USERS ADDED](https://github.com/iyke85/Active-Directory-Config/assets/159981310/8a4fd1ac-fa3b-4792-bb2a-9379991e3733)
 
 
+ Create Additional Users and Test Access
+1. Create Users via PowerShell Script:
 
+Logged into DC-1 as OLA_ADMIN.
+Opened PowerShell ISE as an administrator.
+Created a script to generate multiple user accounts.
+Ran the script and observed the new accounts being created in the _EMPLOYEES OU in ADUC.
+
+2. Test User Login:
+
+Attempted to log into Client-1 with one of the newly created user accounts to verify successful login.
+
+![GENERATED NAMES WITH POWERSHELL](https://github.com/iyke85/Active-Directory-Config/assets/159981310/572f9feb-baf7-4ae0-8214-f4123f3afcc7)
+
+
+
+![login with new user](https://github.com/iyke85/Active-Directory-Config/assets/159981310/c40a91af-f78e-4368-895e-9fc73de7e5f6)
+
+
+![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/4f54ed14-b32d-401a-9663-c18247a16c45)
+
+
+![image](https://github.com/iyke85/Active-Directory-Config/assets/159981310/ed11081d-1d86-444f-be3c-d07d1a775fca)
+
+
+Summary
+
+This project demonstrates the setup and configuration of a Windows Server environment with Active Directory in Azure. I showcased my skills in deploying and managing a cloud-based infrastructure by creating and configuring VMs, establishing network connectivity, setting up AD services, and managing user accounts. This experience highlights my system administration, network management, and Active Directory configuration capabilities.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+.
+.
 </p>
 <br />
